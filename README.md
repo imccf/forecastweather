@@ -119,7 +119,7 @@
 
 ### **Release Note**
 
-See release notes on https://github.com/imccf/Weather
+See release notes on https://github.com/imccf/forecastweather
 
 ### **README File**
    README file is under root folder in project
