@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_forecast"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_vertical"
+      android:orientation="horizontal"
+      android:padding="@dimen/sp_12"
+      >
+
+    <!--Date -->
+    <TextView
+        android:id="@+id/forecast_date"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/temp_text_bg"
+        android:textSize="@dimen/sp_18"
+        />
+
+    <!--Weather Icon State-->
+    <ImageView
+        android:id="@+id/forecast_weather_state"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        />
+
+    <!--Max Min Temp-->
+    <LinearLayout
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        >
+      <TextView
+          android:id="@+id/forecast_temp_height"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/temp_text_bg"
+          android:textSize="@dimen/sp_18"
+          />
+
+      <TextView
+          android:id="@+id/forecast_temp_slash"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="/"
+          android:textColor="#FFF"
+          android:textSize="@dimen/sp_18"
+          android:visibility="gone"
+          />
+
+      <TextView
+          android:id="@+id/forecast_temp_low"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="@color/temp_min_tx"
+          android:textSize="@dimen/sp_18"
+          />
+    </LinearLayout>
+
+
+
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="purple_200">#FFBB86FC</color>
+  <color name="purple_500">#FF6200EE</color>
+  <color name="purple_700">#FF3700B3</color>
+  <color name="teal_200">#FF03DAC5</color>
+  <color name="teal_700">#FF018786</color>
+  <color name="black">#FF000000</color>
+  <color name="white">#FFFFFFFF</color>
+  <color name="transparent_bg">#44000000</color><!--Black translucent 2-->
+  <color name="forecast_list_bg">#FF6200EE</color><!--forecast list bg 2-->
+  <color name="temp_min_tx">#B3BCCA</color><!--low temp colour-->
+  <color name="divider_line_colour">#ff4073ba</color>
+  <color name="temp_text_bg">#FFF</color><!--divider colour-->
+
+</resources>

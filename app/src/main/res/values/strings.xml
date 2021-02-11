@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">Weather</string>
+  <string name="click_to_get_mock_data_for_15_days">Click me to get mock data for 15 days</string>
+  <string name="loading">loading..</string>
+  <!-- Strings used for fragments for navigation -->
+
+</resources>
