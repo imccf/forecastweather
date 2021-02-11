@@ -14,11 +14,11 @@
 
 ### **Third party lib**
 
-  1. PageIndicatorView  This lib is used to show cycle icon when page scroll left and right
+  1. PageIndicatorView:  This lib is used to show cycle icon when page scroll left and right
   
-  2. Glide   This lib is used to show cycle icon when page scroll left and right
+  2. Glide:   This lib is used to show cycle icon when page scroll left and right
 
-  3. Retrofit This lib is used to internet request
+  3. Retrofit: This lib is used to request data from internet
 
 
 
@@ -43,8 +43,9 @@
 
 --2. Get mock Data
 
-  2.1. Get real Data
-      get mock data from http://topblockchaininfo.com/testdata.json
+  2.1. Get mock data
+      
+      Get mock data from http://topblockchaininfo.com/testdata.json
 
       API model http://topblockchaininfo.com/testdata.json
 
@@ -53,7 +54,7 @@
       http://topblockchaininfo.com/testdata.json
 
 
-  2.2 Parse Data, After get json data, parse the json data
+  2.2 Parse Data, After getting json data, parse the json data
      Use retrofit lib to get data and auto parse json data
 
   2.3 Fill data, once finish to parse data, update UI
